@@ -29,7 +29,7 @@ USEMODULE += shell_commands
 USEMODULE += lsm303dlhc
 
 # CoAP broker server information
-BROKER_ADDR ?= 2001:660:3207:102::4
+BROKER_ADDR ?= 2001::d0f0:1347:73bc:59f4
 
 CFLAGS += -DBROKER_ADDR=\"$(BROKER_ADDR)\"
 
